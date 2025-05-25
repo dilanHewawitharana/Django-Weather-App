@@ -11,7 +11,7 @@ def home(request):
     else:
         city = 'London'
 
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=55924d3e30b754d27505b4a5313eda67'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=xxxxxx'
     PARAMS = {'units':'metric'}
 
     API_KEY = '55924d3e30b754d27505b4a5313eda67'
